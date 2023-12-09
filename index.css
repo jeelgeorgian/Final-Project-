@@ -1,0 +1,57 @@
+header {
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 500px;
+  padding: 20px 60px;
+}
+.hcontainer {
+  padding: 20px;
+  min-height: 300px;
+  text-align: center;
+  grid-gap: 12px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #00000077;
+  border-radius: 10px;
+  border: 1px dashed red;
+}
+
+.hcontainer h1 {
+  transition: all 0.3s;
+  cursor: pointer;
+}
+.hcontainer h1:hover {
+  color: red;
+}
+.hcontainer p {
+  max-width: 700px;
+}
+.hcontainer a {
+  font-weight: 600;
+  padding: 10px 20px;
+  cursor: pointer;
+  border: 1px solid red;
+  border-radius: 100px;
+}
+.hcontainer .filled-btn {
+  background-color: red;
+}
+.hcontainer .filled-btn:hover,
+.hcontainer .outlined-btn:hover {
+  color: white;
+  background-color: green;
+  border-color: green;
+}
+.hcontainer .outlined-btn {
+  color: red;
+}
+.hcontainer div {
+  display: flex;
+  flex-wrap: wrap;
+  grid-gap: 20px;
+  justify-content: center;
+}
